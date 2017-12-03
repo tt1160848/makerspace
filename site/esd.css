@@ -1,0 +1,42 @@
+*
+{
+	box-sizing: border-box;
+}
+
+
+
+
+body
+{
+
+}
+
+
+.heading
+{
+	background-color: pink;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.links
+{
+	font-size:20px;
+	color:grey;
+	text-align: center;
+	padding:5px 5px 5px 5px;
+	margin:15px 15px 15px 15px;
+}
+
+
+.footer
+{ 	box-sizing: border-box;
+	background-color: white;
+    width: 100%;
+    position:relative;
+   
+    left: 0px;
+    text-align: center;
+    
+}
