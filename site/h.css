@@ -10,13 +10,20 @@
 	
 }
 
+
+/*
 .backgroundimage
 {
-/*background-color: #5CDB95; */
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFsicr1M4sTlY1niwQIWq8cR92PsoFuV9VRw6_U7P1U9W4nozI"); 
-background-repeat: no-repeat;
+  
+
+background-color: #1A1A1D; 
+
 background-size: 1500px 800px;
+
 }
+*/
+
+
 
   
 body
@@ -32,20 +39,22 @@ background-size:16px 16px;*/
 /*background-image: url("http://www.pptbackgrounds.org/uploads/wood-processing-backgrounds-wallpapers.jpg");
 */
 overflow-y: scroll;
+
 }
 
 
 /* NAVIGATION BAR */
 .s1
 {	box-sizing: border-box;
-	padding: 1em;
+	padding:1em;
 	color:white;
-	/*background-color:rgb(237,231,219);*/
+	/* background-color:rgb(237,231,219);*/
+  background-color: #E3E2DF;
 	/*background-image: url("file:///Users/harrysehrawat/Downloads/vintage-concrete/vintage-concrete.png");
 	*/
   clear:left;
 	height: auto;
-}
+  }
 
 
 /* MakerSpace Logo */
@@ -62,8 +71,8 @@ font-size: 30px;
 .nav-ul
 {font-family: sans-serif;
 font-size: 20px;
-color:#05386B;
-font-weight: 400;
+color:black;
+font-weight: 400000000;
 padding:26px !important;
 transition: all 0.2s;
 list-style: none;
@@ -71,7 +80,7 @@ padding-top: 10px;
 position: absolute;
 left:25%;
 top:0%;
-text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+
 }
 
 .li1,.li2,.li3,.li4,.li5,.li6,.li7,.li8,.li9
@@ -252,7 +261,8 @@ background-size:16px 16px;
 	float: left;
 	height:700px;
 	color:#C3073F;
- font-family:"Comic Sans MS" 
+ font-family:"Comic Sans MS" ;
+ background-color:darkgrey;
 
 }
 
@@ -271,7 +281,7 @@ background-size:16px 16px;
   font-family:courier; 
 	
 	
-	background-color: pink;
+	background-color: grey;
 		content: "";
 	clear: both;
 	display: table;
@@ -306,7 +316,7 @@ transform: translateX(-50%) rotate(45deg);
   vertical-align: baseline;
   box-sizing: border-box;
   display: block;
-  background-color: pink;
+  background-color: grey;
 
 }
 
@@ -328,7 +338,7 @@ transform: translateX(-50%) rotate(45deg);
 	float: left;
 	width: 25%;
 	height: 50px;
-	background-color: grey;
+	background-color: darkgrey;
 }
 
 .stats
