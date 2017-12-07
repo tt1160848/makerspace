@@ -1,3 +1,88 @@
+/* NAVIGATION BAR */
+.s1
+{	box-sizing: border-box;
+	padding:1em;
+	color:white;
+	/* background-color:rgb(237,231,219);*/
+  background-color: #E3E2DF;
+	/*background-image: url("file:///Users/harrysehrawat/Downloads/vintage-concrete/vintage-concrete.png");
+	*/
+  clear:left;
+	height: auto;
+
+  }
+
+
+/* MakerSpace Logo */
+.logo
+{
+font-size: 30px;
+
+
+
+}
+
+
+/* Navigation Bar Items */
+.nav-ul
+{font-family: sans-serif;
+font-size: 20px;
+color:black;
+font-weight: 400000000;
+padding:26px !important;
+transition: all 0.2s;
+list-style: none;
+padding-top: 10px;
+position: absolute;
+left:25%;
+top:0%;
+
+}
+
+.li1,.li2,.li3,.li4,.li5,.li6,.li7,.li8,.li9
+{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	cursor: pointer;
+
+}
+
+.li1:hover,.li2:hover,.li3:hover,.li4:hover,.li5:hover,.li6:hover,.li7:hover,.li8:hover,.li9:hover
+{background-color: grey;
+
+}
+
+.li2dropdown,.li3dropdown,.li4dropdown,.li5dropdown
+{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    overflow: auto;
+    }
+
+.li2dropdown a,.li3dropdown a,.li4dropdown a,.li5dropdown a
+{
+	
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.li2:hover .li2dropdown,.li3:hover .li3dropdown,.li4:hover .li4dropdown,.li5:hover .li5dropdown
+{
+	display: block;
+}
+
+
+
+
 *
 {
 	box-sizing: border-box;
