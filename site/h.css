@@ -1,3 +1,13 @@
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
 
 
 
@@ -402,4 +412,14 @@ transform: translateX(-50%) rotate(45deg);
     left: 0px;
     text-align: center;
     
+}
+
+.footerli1,.footerli2,.footerli3
+{
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+  position: relative;
+  left: 37%;
 }
